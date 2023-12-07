@@ -1,5 +1,5 @@
 # California_Housing_Price_Visualization_Project
-The project answers 10 most important questions related to California House Price using Python libraries such as Pandas, Matplotlib and Seaborn.
+This project answers 10 most important questions related to California House Price using Python libraries such as Pandas, Matplotlib and Seaborn.
 
 Q1. What is the average median income of the data set and check the distribution of data using appropriate plots. Please explain the distribution of the plot.
 
