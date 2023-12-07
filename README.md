@@ -1,9 +1,9 @@
 # California_Housing_Price_Visualization_Project
 This project answers 10 most important questions related to California House Price using Python libraries such as Pandas, Matplotlib and Seaborn.
 
-Q1. What is the average median income of the data set and check the distribution of data using appropriate plots. Please explain the distribution of the plot.
+## Q1. What is the average median income of the data set and check the distribution of data using appropriate plots. Please explain the distribution of the plot.
 
-Inference :
+### Inference :
 1. The x axis represents median income for households within a block and y axis represents its count.
 2. The histogram and distribution plot shows that the data is slightly right skewed.
 3. The mean : 3.870671, min : 0.499900, 25% : 2.563400, median : 3.534800, 75% : 4.743250, max : 15.000100.
@@ -13,9 +13,9 @@ Inference :
 (ii) Middle income group : 2.56 to 4.74,
 (iii) High income group : 4.74 to 15.
 
-Q2. Draw an appropriate plot to see the distribution of housing_median_age and explain your observations.
+## Q2. Draw an appropriate plot to see the distribution of housing_median_age and explain your observations.
 
-Inference :
+### Inference :
 
 1. The x axis represents median age of a house within a block and y axis represents its count
 2. The histogram and distribution plot shows that the data is multimodal distributed.
@@ -26,55 +26,55 @@ Inference :
 (ii) Middle age houses : 18 to 37 years old,
 (iii) Old age houses : 37 to 52 years old.
 
-Q3. Show with the help of visualization, how median_income and median_house_values are related?
+## Q3. Show with the help of visualization, how median_income and median_house_values are related?
 
-Inference :
+### Inference :
 1. The x axis represents median income for households within a block of houses (measured in tens of thousands of US Dollars) and y axis represents median house value for households within a block (measured in US Dollars).
 2. The scatter plot forms a big cluster with few outliers.
 3. As median income of households increases the median house value of the block is also increasing (linear relationship).
 4. The coorelation value between the columns is 0.688 (average positive linear correlation).
 
-Q4. Create a data set by deleting the corresponding examples from the data set for which total_bedrooms are not available.
+## Q4. Create a data set by deleting the corresponding examples from the data set for which total_bedrooms are not available.
 
-Inference :
+### Inference :
 
 All columns of housing dataframe have non-null values (i.e) 20640 values but total_bedrooms have only 20433 non-null values and remaining are null values.
 
-Q5. Create a data set by filling the missing data with the mean value of the total_bedrooms in the original data set.
+## Q5. Create a data set by filling the missing data with the mean value of the total_bedrooms in the original data set.
 
-Inference :
+### Inference :
 
 The count of all columns including total_bedrooms are 20640 (i.e) No null values are present.
 
-Q6. Write a programming construct (create a user defined function) to calculate the median value of the data set wherever required.
+## Q6. Write a programming construct (create a user defined function) to calculate the median value of the data set wherever required.
 
-Output :
+### Output :
 
 1. Enter the column name to find median: median_house_value
 2. The median value for median_house_value is : 179700.0
 
-Q7. Plot latitude versus longitude and explain your observations.
+## Q7. Plot latitude versus longitude and explain your observations.
 
-Inference :
+### Inference :
 1. The relationship plot is scatter plot with x axis taken as latitude and y axis taken as longitude.
 2. Clearly, their is a decline trend (correlation = -0.92, Strongly negative linear relationship).
 3. As latitude increases, the longitude of the house is decreasing.
 4. Resulting in houses located at far north as well as far west.
 
-Q8. Create a data set for which the ocean_proximity is ‘Near ocean’.
+## Q8. Create a data set for which the ocean_proximity is ‘Near ocean’.
 
-Inference :
+### Inference :
 
 There are 2658 blocks which have ocean_proximity 'NEAR OCEAN'.
 
-Q9. Find the mean and median of the median income for the data set created in question 8.
+## Q9. Find the mean and median of the median income for the data set created in question 8.
 
-Inference :
+### Inference :
 1. Mean value of median_income column of nearocean_housing dataframe = 4.0057848006019565.
 2. Median value of median_income column of nearocean_housing dataframe = 3.64705.
 
-Q10. Please create a new column named total_bedroom_size. If the total bedrooms is 10 or less, it should be quoted as small. If the total bedrooms is 11 or more but less than 1000, it should be medium, otherwise it should be considered large.
+## Q10. Please create a new column named total_bedroom_size. If the total bedrooms is 10 or less, it should be quoted as small. If the total bedrooms is 11 or more but less than 1000, it should be medium, otherwise it should be considered large.
 
-Inference :
+### Inference :
 
 There are 55 small, 18495 medium and 1883 large bedroom size are there in blocks.
